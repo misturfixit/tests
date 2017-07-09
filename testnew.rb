@@ -30,10 +30,13 @@ class TestArr < Minitest::Test
 	end
 
 	def test_whee38
-			assert_equal("Mined", [39])
+			assert_equal("Mined", new_kat[38])
 	end		
 
-
+	def test_las49
+			assert_equal("Minds", [49])
+	end
+			
 
 
 end 
