@@ -22,9 +22,14 @@ class TestArr < Minitest::Test
 	end                 #srry was forgetting to push the fails..henceforth pushed
    
    def test_pos14
-   		assert_equal("MinedMinds", new_kat[15])
+   		assert_equal("MinedMinds", new_kat[14])
 	end
 
-	   		
+	def test_uhg29
+		 	assert_equal("MinedMinds", [28])
+	end
 
+
+
+	
 end 
