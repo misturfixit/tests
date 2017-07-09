@@ -33,10 +33,11 @@ class TestArr < Minitest::Test
 			assert_equal("Mined", new_kat[38])
 	end		
 
-	def test_las49
-			assert_equal("Minds", [49])
+	def test_pos49
+			assert_equal("Minds", new_kat[49])
 	end
 			
-
-
+	def test_poshunnit
+			assert_equal("Minds", [100])
+	end
 end 
