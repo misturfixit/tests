@@ -9,9 +9,11 @@ def new_kat
 			arry << "MinedMinds"	
 		
 		elsif (n %3 == 0)
-
 			arry << "Mined"	
 		
+		elsif (n %5 == 0)
+			arry << "Minds"
+			
 
 
 		else 
