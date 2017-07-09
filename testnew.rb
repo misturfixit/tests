@@ -37,7 +37,11 @@ class TestArr < Minitest::Test
 			assert_equal("Minds", new_kat[49])
 	end
 			
-	def test_poshunnit
-			assert_equal("Minds", [100])
+	def test_p_hunnit
+			assert_equal("Minds", new_kat[99])
 	end
-end 
+
+
+end
+
+
